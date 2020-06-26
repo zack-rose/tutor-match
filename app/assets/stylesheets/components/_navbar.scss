@@ -1,12 +1,18 @@
-.navbar-lewagon {
+.navbar-tutormatch {
   justify-content: space-between;
-  background: white;
+  background: $tm-purple;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-tutormatch .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-tutormatch .navbar-brand img {
+  width: 180px;
+}
+.navbar-brand {
+  padding-top: 0 !important;
+}
+.nav-link {
+  color: white !important;
 }
